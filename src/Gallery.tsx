@@ -1,4 +1,7 @@
 /* IMAGES */
+import "aos/dist/aos.css";
+import AOS from 'aos';
+
 import Backdoor from "./assets/Backdoor.png";
 import BloomBloom from "./assets/BloomBloom.png";
 import FromYourLove from "./assets/FromYourLove.png";
@@ -10,7 +13,7 @@ import IMG5 from "./assets/IMG5.jpg";
 import IMG6 from "./assets/IMG6.jpg";
 import IMG7 from "./assets/IMG7.jpg";
 import IMG8 from "./assets/IMG8.jpg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 type GalleryItem = {
@@ -20,6 +23,10 @@ type GalleryItem = {
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS with a duration of 1000ms for animations
+  }, []);
 
   const handleImageClick = (imgSrc:string) => {
     setSelectedImage(imgSrc);
@@ -79,7 +86,7 @@ const Gallery = () => {
       {/* Header img */}
       <div className="container">
         <div className="row mb-4"></div>
-        <div className="col-12 mb-4 ">
+        <div className="col-12 mb-4 " data-aos="fade-up">
             <div className="gallery-item" onClick={() => handleImageClick(Denial)}>
           <img className="img-fluid w-100 shadow " src={Denial} alt="" />
             </div>
@@ -88,7 +95,7 @@ const Gallery = () => {
       <div className="container">
         <div className="row">
           {data.map((item) => (
-            <div key={item.id} className="col-md-4 mb-4">
+            <div key={item.id} className="col-md-4 mb-4" data-aos="fade-up">
                 <div className="gallery-item" onClick={() => handleImageClick(item.imgSrc)}>
 
               <img
@@ -103,19 +110,19 @@ const Gallery = () => {
       </div>
       <div className="container">
         <div className="col-12 mb-3">
-            <div className="gallery-item" onClick={() => handleImageClick(ABSPanel)}>
+            <div className="gallery-item"   data-aos="fade-up" onClick={() => handleImageClick(ABSPanel)}>
           <img className="img-fluid w-100 shadow" src={ABSPanel} alt="" />
             </div>
         </div>
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-6 mb-3">
+          <div className="col-6 mb-3" data-aos="fade-up">
             <div className="gallery-item " onClick={() => handleImageClick(IMG7)}>
             <img className="img-fluid w-100 shadow" src={IMG7} alt="" />
             </div>
           </div>
-          <div className="col-6 mb-3">
+          <div className="col-6 mb-3" data-aos="fade-up">
             <div className="gallery-item" onClick={() => handleImageClick(IMG8)}>
             <img className="img-fluid w-100 shadow" src={IMG8} alt="" />
             </div>
@@ -124,13 +131,13 @@ const Gallery = () => {
       </div>
       {/* bottom img */}
       <div className="container">
-        <div className="col-12 mb-3">
+        <div className="col-12 mb-3" data-aos="fade-up">
             <div className="gallery-item" onClick={() => handleImageClick(AppBrand)}>
           <img className="img-fluid w-100 shadow" src={AppBrand} alt="" />
             </div>
         </div>
       </div>
-      <div className="container d-flex m-2 justify-content-center text-center">
+      <div className="container d-flex m-2 justify-content-center text-center" >
               <h5>Please bare with me while I add more functionality and pieces to this site. I've been creating graphics for over 15 years. Thousands of projects. Kind of hard to choose a few. Will update weekly! </h5>
             </div>
       {selectedImage && (
