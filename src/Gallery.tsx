@@ -73,9 +73,6 @@ const Gallery = () => {
                 here!
               </a>{" "}
             </strong>
-            <div className="container d-flex m-2 justify-content-center text-center">
-              <h5>Please bare with me while I add more functionality and pieces to this site. I've been creating graphics for over 15 years. Thousands of projects. Kind of hard to choose a few. But it's getting done! </h5>
-            </div>
           </span>
         </h4>
       </div>
@@ -133,6 +130,9 @@ const Gallery = () => {
             </div>
         </div>
       </div>
+      <div className="container d-flex m-2 justify-content-center text-center">
+              <h5>Please bare with me while I add more functionality and pieces to this site. I've been creating graphics for over 15 years. Thousands of projects. Kind of hard to choose a few. But it's getting done! </h5>
+            </div>
       {selectedImage && (
         <div className="modal fade show d-block" tabIndex={-1} role="dialog" onClick={handleClose}>
           <div className="modal-dialog modal-lg" role="document">
