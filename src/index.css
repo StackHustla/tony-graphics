@@ -15,13 +15,13 @@ a {
   font-weight: 500;
   color: #000000;
   text-decoration: inherit;
-  transition: 0.3s ease-in-out;
-
+  transition: 0.4s ease-in-out;
+  font-family: Playwrite;
 }
 
 a:hover {
   color: #c3ad04;
-  transform: scale(1.02);
+  transform: scale(1.04);
 }
 
 body {
@@ -33,4 +33,5 @@ body {
   min-width: 320px;
   min-height: 100vh;
   padding: 0 1rem;
+  font-family: Poppins;
 }

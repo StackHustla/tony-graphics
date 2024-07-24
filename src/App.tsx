@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css"; // Ensure you have the full Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css"; 
 import Createdby from "./assets/CreatedBy.png";
 import Gallery from "./Gallery";
 
@@ -10,7 +10,7 @@ function App() {
       <nav className="navbar navbar-expand-lg navbar-light mb-3">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src={Createdby} alt="Created By Tony T" className="img-fluid" style={{ maxHeight: '40px' }} />
+            <h3 className="fs-2 fw-bolder ">Created By Tony T</h3>
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -22,6 +22,9 @@ function App() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#about">About</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#about">Contact</a>
               </li>
             </ul>
           </div>
