@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-white text-black mt-5 p-4 text-center">
     <div className="container">
       <div className="row">
-        <div className="col-md-4 mb-4 mb-md-0">
+        <div className="col-md-6 mb-md-0">
           <h5>Contact Us</h5>
           <ul className="list-unstyled">
             <li>Email: info@example.com</li>
@@ -14,7 +14,7 @@ const Footer = () => {
             <li>Address: 123 Example Street, City, Country</li>
           </ul>
         </div>
-        <div className="col-md-4 mb-4 mb-md-0">
+        <div className="col-md-6 mb-md-0">
           <h5>Follow Us</h5>
           <ul className="list-unstyled">
             <li><a href="#" className="text-black  bi-facebook"> Facebook</a></li>
