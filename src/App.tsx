@@ -7,7 +7,7 @@ import Gallery from "./Gallery";
 function App() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light mb-3">
+      <nav className="navbar navbar-expand-lg navbar-light mb-3 bg-white sticky-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <h3 className="fs-2 fw-bolder ">Created By Tony T</h3>
@@ -24,13 +24,13 @@ function App() {
                 <a className="nav-link" href="#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">Contact</a>
+                <a className="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <div>
+      <div id="work">
         <Gallery />
       </div>
       <div><footer></footer></div>
