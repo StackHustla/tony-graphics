@@ -6,16 +6,16 @@ const About = () => {
     <>
     <div className="mb-5" id="about"></div>
     <div className="mb-4"><br /></div>
-      <div className="container mb-5">
+      <div className="container row-gap-3 mb-5">
         <div className="row">
 
-        <div className="col-6 mb-3">
-          <h5>
+        <div className="col-8 mb-3">
+          <h5 className="p-5 column justify-content-center text-center">
             I've been creating graphics for over 10 years. Thousands of
             projects. Kind of hard to choose a few. Will update weekly!
           </h5>
         </div>
-        <div className="col-6 mb-3">
+        <div className="col-4 mb-3">
           <div className="" data-aos="fade-up">
             <img src={InuDemo} alt="" />
           </div>
@@ -23,7 +23,7 @@ const About = () => {
         </div>
       </div>
       <div className="mb-2"><br /></div>
-      <h2 className="mb-5 justfiy-content-center text-center">Let's continue with art!</h2>
+      <h2 className="mb-5 justfiy-content-center text-center">Let's continue with some more <span className="strong">art</span></h2>
     </>
   );
 };
