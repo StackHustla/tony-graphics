@@ -17,6 +17,8 @@ import IMG9 from "./assets/IMG9.jpg";
 import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import About from "./About";
+
 type GalleryItem = {
   id: number;
   imgSrc: string;
@@ -86,7 +88,8 @@ const Gallery = () => {
       </div>
       <div className="container justfiy-content-center text-center text-danger">
         <p>
-          Still under construction over here. Some things might not look right for a bit.
+          Still under construction over here. Some things might not look right
+          for a bit.
         </p>
       </div>
       {/* Header img */}
@@ -119,6 +122,7 @@ const Gallery = () => {
           ))}
         </div>
       </div>
+      <About />
       <div className="container">
         <div className="col-12 mb-3">
           <div
