@@ -1,4 +1,3 @@
-
 import TempIMG from "./assets/TempIMG.webp";
 
 const About = () => {
@@ -29,7 +28,8 @@ const About = () => {
               classmates introduce me to graphic design. From there I was
               intrigued in designing everything from ads to print materials and
               shirts. Back then I wasn't the best but that spark ignited a fire
-              in me that continues to burn today.
+              in me that continues to burn today. I consider myself phenomenal
+              in this field.
               <br />
               <br />
               I went on to earn a Associates in Graphic Design & Bachelors in
@@ -52,7 +52,11 @@ const About = () => {
           </div>
           <div className="col-lg-4 order-lg-1 about-image">
             <div data-aos="fade-up">
-              <img className="img-fluid w-100 shadow circular-mask" src={TempIMG} alt="Tony's Profile" />
+              <img
+                className="img-fluid w-100 shadow circular-mask"
+                src={TempIMG}
+                alt="Tony's Profile"
+              />
               <h5 className="p-1 justify-content-center text-center">
                 ACTUAL IMAGE COMING SOON!
               </h5>

@@ -14,6 +14,9 @@ import IMG6 from "./assets/IMG6.jpg";
 import IMG7 from "./assets/IMG7.jpg";
 import IMG8 from "./assets/IMG8.jpg";
 import IMG9 from "./assets/IMG9.jpg";
+import IMG10 from "./assets/IMG10.jpg";
+import IMG11 from "./assets/IMG11.jpg";
+import IMG12 from "./assets/IMG12.jpg";
 import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -125,6 +128,15 @@ const Gallery = () => {
       </div>
       <About />
       <div className="container">
+      <div className="col-12 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item"
+              onClick={() => handleImageClick(IMG9)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG9} alt="" />
+            </div>
+          </div>
+        
         <div className="col-12 mb-3">
           <div
             className="gallery-item"
@@ -153,17 +165,40 @@ const Gallery = () => {
               <img className="img-fluid w-100 shadow" src={IMG8} alt="" />
             </div>
           </div>
-          <div className="col-12 mb-3" data-aos="fade-up">
-            <div
-              className="gallery-item"
-              onClick={() => handleImageClick(IMG9)}
-            >
-              <img className="img-fluid w-100 shadow" src={IMG9} alt="" />
-            </div>
-          </div>
+          
         </div>
       </div>
-      {/* bottom img */}
+      <div className="container">
+        <div className="row">
+          <div className="col-4 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item "
+              onClick={() => handleImageClick(IMG11)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG11} alt="" />
+            </div>
+          </div>
+          <div className="col-4 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item "
+              onClick={() => handleImageClick(IMG10)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG10} alt="" />
+            </div>
+          </div>
+          <div className="col-4 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item"
+              onClick={() => handleImageClick(IMG12)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG12} alt="" />
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      {/* applab */}
       <div className="container">
         <div className="col-12 mb-3" data-aos="fade-up">
           <div
