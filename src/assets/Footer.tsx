@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12 mb-md-0">
-            <h5>Contact Us</h5>
-            <ul className="list-unstyled">
+            <h5>Contact Me</h5>
+            <ul className="list-unstyled fs-3">
               <li className="mb-2">Email: tonytcreates@gmail.com</li>
               <h5>Follow Me</h5>
               <li>
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="mt-4">
+      <div className="mt-4 fs-4">
         <p>
           &copy; {new Date().getFullYear()} Tony Moore | All rights reserved.
         </p>

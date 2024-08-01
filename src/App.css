@@ -52,3 +52,26 @@
     display: none;
   }
 }
+
+/* ABOUT ME */
+
+.circular-mask {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 1005px) {
+  .about-container {
+    flex-direction: column-reverse;
+  }
+  
+  .about-image {
+    margin-bottom: 20px;
+  }
+
+  
+}

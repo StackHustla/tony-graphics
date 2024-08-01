@@ -79,6 +79,7 @@ const Gallery = () => {
                 target="blank"
                 rel="noopener noreferrer"
                 href="https://stackhustla.github.io/TonyTCreates.github.io/"
+                style={{ fontFamily: "inherit" }}
               >
                 here!
               </a>{" "}
