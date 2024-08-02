@@ -111,7 +111,7 @@ const Gallery = () => {
       <div className="container">
         <div className="row">
           {data.map((item) => (
-            <div key={item.id} className="col-md-4 mb-4" data-aos="fade-up">
+            <div key={item.id} className="col-sm-4 mb-4" data-aos="fade-up">
               <div
                 className="gallery-item"
                 onClick={() => handleImageClick(item.imgSrc)}
@@ -149,7 +149,7 @@ const Gallery = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-6 mb-3" data-aos="fade-up">
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
             <div
               className="gallery-item "
               onClick={() => handleImageClick(IMG7)}
@@ -157,7 +157,7 @@ const Gallery = () => {
               <img className="img-fluid w-100 shadow" src={IMG7} alt="" />
             </div>
           </div>
-          <div className="col-6 mb-3" data-aos="fade-up">
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
             <div
               className="gallery-item"
               onClick={() => handleImageClick(IMG8)}
@@ -165,7 +165,6 @@ const Gallery = () => {
               <img className="img-fluid w-100 shadow" src={IMG8} alt="" />
             </div>
           </div>
-          
         </div>
       </div>
       <div className="container">
