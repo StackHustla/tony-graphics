@@ -24,12 +24,11 @@ const About = () => {
               to be personalized by me for me. Every video game character, item,
               or whatever needed to represent and express who I was as an
               individual. But what fascinated me the most was digital art and
-              design. While my mom was attending college she had a few
-              classmates introduce me to graphic design. From there I was
-              intrigued in designing everything from ads to print materials and
-              shirts. Back then I wasn't the best but that spark ignited a fire
-              in me that continues to burn today. I consider myself phenomenal
-              in this field.
+              design. While my mom was attending college, she had a few
+              classmates introduce me to graphic design. From there, I was
+              intrigued in designing everything from ads, shirts and anything
+              else that I thought was cool. Back then I was just learning but that
+              spark ignited a fire in me that continues to burn today!
               <br />
               <br />
               I went on to earn a Associates in Graphic Design & Bachelors in
