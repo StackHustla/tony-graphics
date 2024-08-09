@@ -17,6 +17,9 @@ import IMG9 from "./assets/IMG9.jpg";
 import IMG10 from "./assets/IMG10.jpg";
 import IMG11 from "./assets/IMG11.jpg";
 import IMG12 from "./assets/IMG12.jpg";
+import IMG13 from "./assets/IMG13.webp";
+import IMG14 from "./assets/IMG14.webp";
+import IMG15 from "./assets/IMG15.webp";
 import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -167,6 +170,40 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+      <div className="container">
+        <div className="col-12 mb-3">
+          <div
+            className="gallery-item"
+            data-aos="fade-up"
+            onClick={() => handleImageClick(IMG15)}
+          >
+            <img className="img-fluid w-100 shadow" src={IMG15} alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item "
+              onClick={() => handleImageClick(IMG13)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG13} alt="" />
+            </div>
+          </div>
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item"
+              onClick={() => handleImageClick(IMG14)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG14} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
       <div className="container">
         <div className="row">
           <div className="col-4 mb-3" data-aos="fade-up">
