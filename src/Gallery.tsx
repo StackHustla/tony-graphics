@@ -77,18 +77,18 @@ const Gallery = () => {
 
   return (
     <>
-      <div className="container d-flex justify-content-center text-center">
+      <div className="container d-flex justify-content-center text-center ">
         <h4 className="">
           Can you believe this website was made by me? Check out my Front-end
           Website{" "}
-          <span>
+          <span >
             <strong>
               <a
                 className=""
                 target="blank"
                 rel="noopener noreferrer"
                 href="https://stackhustla.github.io/TonyTCreates.github.io/"
-                style={{ fontFamily: "inherit" }}
+                style={{ color: "red",fontFamily: "inherit" }}
               >
                 here!
               </a>{" "}

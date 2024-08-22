@@ -1,13 +1,12 @@
-import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css"; 
-import Createdby from "./assets/CreatedBy.png";
 import Gallery from "./Gallery";
 import Footer from "./assets/Footer";
 
 function App() {
   return (
     <>
+    
       <nav className="navbar navbar-expand-lg navbar-light mb-3 bg-white sticky-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
@@ -35,17 +34,6 @@ function App() {
         <Gallery />
       </div>
       <div><Footer/></div>
-     {/*  <footer className="footer">
-        <div className="social">
-            <a href="#" target="_blank"><i className='bx bxl-linkedin'></i></a>
-            <a href="#" target="_blank"><i className='bx bxl-github'></i></a>
-            <a href="#" target="_blank"><i className='bx bxl-instagram-alt'></i></a>
-            <a href="https://www.beatstars.com/tonytintheplace" target="_blank"><i className='bx bxs-music'></i></a>
-        </div>
-        <p className="copyright">
-            © Antonio Moore | All Rights Reserved
-        </p>
-    </footer> */}
     </>
   );
 }

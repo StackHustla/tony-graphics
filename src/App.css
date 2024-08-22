@@ -2,20 +2,21 @@
   max-width: 1780px;
 }
 
-.gallery-item{
+.gallery-item {
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
 
-.gallery-item:hover{
+.gallery-item:hover {
   box-shadow: 0px 0px 20px black;
 }
 
-.gallery-item img{
+.gallery-item img {
   display: block;
   transition: 0.5s ease-in-out;
 }
+
 .gallery-item:hover img {
   transform: scale(1.2);
   opacity: 0.5;
@@ -36,6 +37,7 @@
 .gallery-item:hover::after {
   opacity: 1;
 }
+
 .modal-body-custom {
   display: flex;
   justify-content: center;
@@ -68,10 +70,10 @@
   .about-container {
     flex-direction: column-reverse;
   }
-  
+
   .about-image {
     margin-bottom: 20px;
   }
 
-  
+
 }
