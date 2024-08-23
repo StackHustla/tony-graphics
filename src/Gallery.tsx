@@ -6,6 +6,7 @@ import Backdoor from "./assets/Backdoor.png";
 import BloomBloom from "./assets/BloomBloom.png";
 import FromYourLove from "./assets/FromYourLove.png";
 import Denial from "./assets/Denial.webp";
+import WhoYouWanted from "./assets/WhoYouWanted.webp";
 import ABSPanel from "./assets/ABSPanel.png";
 import AppBrand from "./assets/AppBrand.jpg";
 import IMG4 from "./assets/IMG4.jpg";
@@ -23,6 +24,10 @@ import IMG15 from "./assets/IMG15.webp";
 import Choso from "./assets/Choso_.gif";
 import IpMan from "./assets/IpMan_.webp";
 import Champloo from "./assets/Champloo_.webp";
+import DataIMG1 from "./assets/IMG_INFO-01.webp";
+import DataIMG2 from "./assets/IMG_INFO-02.webp";
+import DataIMG3 from "./assets/IMG_INFO-03.webp";
+import DataIMG4 from "./assets/IMG_INFO-04.webp";
 import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -137,9 +142,29 @@ const Gallery = () => {
         <div className="col-12 mb-4 " data-aos="fade-up">
           <div
             className="gallery-item"
-            onClick={() => handleImageClick(Denial)}
+            onClick={() => handleImageClick(WhoYouWanted)}
           >
-            <img className="img-fluid w-100 shadow " src={Denial} alt="" />
+            <img className="img-fluid w-100 shadow " src={WhoYouWanted} alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item "
+              onClick={() => handleImageClick(DataIMG1)}
+            >
+              <img className="img-fluid w-100 shadow" src={DataIMG1} alt="" />
+            </div>
+          </div>
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item"
+              onClick={() => handleImageClick(DataIMG2)}
+            >
+              <img className="img-fluid w-100 shadow" src={DataIMG2} alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -176,6 +201,26 @@ const Gallery = () => {
             onClick={() => handleImageClick(ABSPanel)}
           >
             <img className="img-fluid w-100 shadow" src={ABSPanel} alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item "
+              onClick={() => handleImageClick(DataIMG3)}
+            >
+              <img className="img-fluid w-100 shadow" src={DataIMG3} alt="" />
+            </div>
+          </div>
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item"
+              onClick={() => handleImageClick(DataIMG4)}
+            >
+              <img className="img-fluid w-100 shadow" src={DataIMG4} alt="" />
+            </div>
           </div>
         </div>
       </div>
