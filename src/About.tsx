@@ -57,7 +57,6 @@ const About = () => {
                 alt="Tony's Profile"
               />
               <h5 className="p-1 justify-content-center text-center">
-                ACTUAL IMAGE COMING SOON!
               </h5>
             </div>
           </div>
