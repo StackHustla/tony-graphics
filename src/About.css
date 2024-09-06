@@ -1,0 +1,15 @@
+.about-background {
+    width: 100%;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    background-color: #f0f0f0; /* Change to your preferred color */
+    background-image: url('path/to/your/background-image.jpg'); /* Optional image */
+    background-size: cover; /* Make sure the background image covers the area */
+    background-position: center;
+    padding: 50px 0; /* Adjust spacing as needed */
+  }
+  
+  .about-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for the content */
+    border-radius: 10px; /* Optional rounded corners */
+  }
+  

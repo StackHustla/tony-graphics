@@ -5,7 +5,6 @@ import AOS from "aos";
 import Backdoor from "./assets/Backdoor.png";
 import BloomBloom from "./assets/BloomBloom.png";
 import FromYourLove from "./assets/FromYourLove.png";
-import Denial from "./assets/Denial.webp";
 import WhoYouWanted from "./assets/WhoYouWanted.webp";
 import Blasian from "./assets/Blasians.webp";
 import AllYellow from "./assets/AllYellow_.webp";
@@ -23,6 +22,9 @@ import IMG12 from "./assets/IMG12.jpg";
 import IMG13 from "./assets/IMG13.webp";
 import IMG14 from "./assets/IMG14.webp";
 import IMG15 from "./assets/IMG15.webp";
+import IMG16 from "./assets/IMG16.webp";
+import IMG17 from "./assets/IMG17.webp";
+import IMG18 from "./assets/IMG18.webp";
 import Choso from "./assets/Choso_.gif";
 import IpMan from "./assets/IpMan_.webp";
 import Champloo from "./assets/Champloo_.webp";
@@ -105,8 +107,8 @@ const Gallery = () => {
       </div>
       <div className="container justfiy-content-center text-center text-danger">
         <p>
-          Still under construction over here. Some things might not look right
-          for a bit.
+          In the process of adding contact section, links to Dribbble and
+          anything else that I think is cool!
         </p>
       </div>
       {/* Header img */}
@@ -279,6 +281,34 @@ const Gallery = () => {
             onClick={() => handleImageClick(IMG15)}
           >
             <img className="img-fluid w-100 shadow" src={IMG15} alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-4 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item "
+              onClick={() => handleImageClick(IMG16)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG16} alt="" />
+            </div>
+          </div>
+          <div className="col-12 col-md-4 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item"
+              onClick={() => handleImageClick(IMG17)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG17} alt="" />
+            </div>
+          </div>
+          <div className="col-12 col-md-4 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item"
+              onClick={() => handleImageClick(IMG18)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG18} alt="" />
+            </div>
           </div>
         </div>
       </div>

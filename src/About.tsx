@@ -1,4 +1,5 @@
 import TempIMG from "./assets/TempIMG.webp";
+import "./About.css";
 
 const About = () => {
   return (
@@ -27,8 +28,8 @@ const About = () => {
               design. While my mom was attending college, she had a few
               classmates introduce me to graphic design. From there, I was
               intrigued in designing everything from ads, shirts and anything
-              else that I thought was cool. Back then I was just learning but that
-              spark ignited a fire in me that continues to burn today!
+              else that I thought was cool. Back then I was just learning but
+              that spark ignited a fire in me that continues to burn today!
               <br />
               <br />
               I went on to earn a Associates in Graphic Design & Bachelors in
@@ -56,8 +57,7 @@ const About = () => {
                 src={TempIMG}
                 alt="Tony's Profile"
               />
-              <h5 className="p-1 justify-content-center text-center">
-              </h5>
+              <h5 className="p-1 justify-content-center text-center"></h5>
             </div>
           </div>
         </div>
