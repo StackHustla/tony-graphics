@@ -4,7 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <>
-    {/* Full-width background wrapper */}
+    
       <div className="about-background">
         <div className="mb-5" id="about"></div>
         <div className="mb-4">
