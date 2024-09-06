@@ -106,7 +106,7 @@ const Gallery = () => {
         </h4>
       </div>
       <div className="container justfiy-content-center text-center text-danger">
-        <p>
+        <p id="process">
           In the process of adding contact section, links to Dribbble and
           anything else that I think is cool!
         </p>
