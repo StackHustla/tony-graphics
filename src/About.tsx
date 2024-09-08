@@ -60,15 +60,11 @@ const About = () => {
                   src={TempIMG}
                   alt="Tony's Profile"
                 />
-                <h5 className="p-1 justify-content-center text-center"></h5>
               </div>
             </div>
           </div>
         </div>
-        <div className="mb-2">
-          <br />
-        </div>
-        <h2 className="mb-5 justfiy-content-center text-center">
+        <h2 className="mb-2 justfiy-content-center text-center">
           Let's continue with some more <span className="strong">art</span>
         </h2>
       </div>
