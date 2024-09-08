@@ -274,8 +274,10 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+<section>
 
       <About />
+</section>
       <h4 className="justify-content-center text-center m-2">Abstract Art</h4>
       <div className="container">
         <div className="col-12 mb-3" data-aos="fade-up">
