@@ -88,8 +88,7 @@ const Gallery = () => {
     <>
       <div className="container d-flex justify-content-center text-center ">
         <h4 className="">
-          Can you believe this website was made by me? Check out my Front-end
-          Website{" "}
+          Can you believe this website was made by me? I'm working on some cool stuff so check out my Front-end Website{" "}
           <span>
             <strong>
               <a
@@ -97,7 +96,7 @@ const Gallery = () => {
                 target="blank"
                 rel="noopener noreferrer"
                 href="https://stackhustla.github.io/TonyTCreates.github.io/"
-                style={{ color: "red", fontFamily: "inherit" }}
+                style={{ color: "#ED254E ", fontFamily: "inherit" }}
               >
                 here!
               </a>{" "}
@@ -107,8 +106,8 @@ const Gallery = () => {
       </div>
       <div className="container justfiy-content-center text-center text-danger">
         <p id="process">
-          In the process of adding contact section, links to Dribbble and
-          anything else that I think is cool!
+          In the process of adding links to Dribbble and anything else that I
+          think is cool!
         </p>
       </div>
       {/* Header img */}
@@ -173,6 +172,12 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+      <p className="text-dark fs-5 text-center " data-aos="fade-up">
+        <strong>
+          I utilized REACT, Typscript and Bootstrap along with Vanilla HTML and
+          CSS to build this.
+        </strong>
+      </p>
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
@@ -217,7 +222,7 @@ const Gallery = () => {
       </div>
       <About />
       <div className="container">
-        <div className="col-12 mb-3" data-aos="fade-up">
+        <div className="col-12 mb-3 mt-4" data-aos="fade-up">
           <div className="gallery-item" onClick={() => handleImageClick(IMG9)}>
             <img className="img-fluid w-100 shadow" src={IMG9} alt="" />
           </div>

@@ -4,7 +4,6 @@ import "./About.css";
 const About = () => {
   return (
     <>
-    
       <div className="about-background">
         <div className="mb-5" id="about"></div>
         <div className="mb-4">
@@ -35,22 +34,9 @@ const About = () => {
                 burn today!
                 <br />
                 <br />
-                I went on to earn a Associates in Graphic Design & Bachelors in
-                Software Development at WGU. While I was learning quality design
-                practices, I was also expanding my network and learning how to
-                manage a freelance business by creating logos and brand
-                identities. Furthermore, for Software Development, I learned how
-                to utilize full stack development but I love Front End and Web
-                solutions. I've landed many big projects and continue to do so
-                both locally and globally.
-                <br />
-                <br />
-                Im constantly complimented on my speed and quality when it comes
-                to creating and branding ideas. I always strive to learn more
-                and so I am constantly learning new tech stacks to bring forth
-                any and every idea I can. I continue to do freelance work for a
-                wide variety of clients and, most importantly, learn every day
-                how to solve new challenges.
+                Confidence is key and honestly, I feel as though I am VERY good
+                at what I do. You should hit me up if you've gotten this far. We
+                can make something great!
               </p>
             </div>
             <div className="col-lg-4 order-lg-1 about-image">
@@ -60,15 +46,11 @@ const About = () => {
                   src={TempIMG}
                   alt="Tony's Profile"
                 />
-                <h5 className="p-1 justify-content-center text-center"></h5>
               </div>
             </div>
           </div>
         </div>
-        <div className="mb-2">
-          <br />
-        </div>
-        <h2 className="mb-5 justfiy-content-center text-center">
+        <h2 className="mb-5 justfiy-content-center text-center continue">
           Let's continue with some more <span className="strong">art</span>
         </h2>
       </div>
