@@ -1,7 +1,15 @@
 .card-body {
     background-color: #ED254E;
     border: 2px solid white;
+    transition: 0.5s ease-in-out;
 }
 .alt-body {
     background-color: #140D4F;
+}
+.card{
+    transition: 0.5s ease-in-out;
+    
+}
+.card:hover {
+   transform: scale(1.1);
 }
