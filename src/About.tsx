@@ -1,6 +1,6 @@
 import TempIMG from "./assets/TempIMG.webp";
 import "./About.css";
-
+import Cards from "./Cards";
 const About = () => {
   return (
     <>
@@ -50,6 +50,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        <Cards></Cards>
         <h2 className="mb-5 justfiy-content-center text-center continue">
           Let's continue with some more <span className="strong">art</span>
         </h2>

@@ -39,6 +39,20 @@ const Footer = () => {
               >
                 {" "}
               </a>
+              <a
+                href="https://www.beatstars.com/tonytintheplace"
+                target="_blank"
+                className="text-black bi-music-note-beamed m-3 social-icon"
+              >
+                {" "}
+              </a>
+              <a
+                href="https://dribbble.com/tonytcreates"
+                target="_blank"
+                className="text-black bi-dribbble m-3 social-icon"
+              >
+                {" "}
+              </a>
             </li>
           </ul>
           <div className="fs-5">
