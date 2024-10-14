@@ -18,8 +18,8 @@ const Cards = () => {
                   Front-End Site
                 </h5>
                 <p className="card-text">
-                  Here is a link to my Front-End Development site. Built using
-                  vanilla HTML, CSS and JavaScript
+                  Here is a link to my Front-End Development site (portfolio). Built using
+                  vanilla HTML, CSS and JavaScript.
                 </p>
               </div>
             </div>
@@ -47,9 +47,9 @@ const Cards = () => {
           <a href="https://www.beatstars.com/tonytintheplace" target="blank">
             <div className="card shadow-sm h-100">
               <div className="card-body">
-                <h5 className="card-title bi-globe text-white">
+                <h5 className="card-title bi-music-note-beamed text-white">
                   {" "}
-                  Front-End Site
+                  Beatstars - Music
                 </h5>
                 <p className="card-text">
                   Sooo I make music. I have fun doing it. Shameless plug here!
