@@ -140,7 +140,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
           <div className="col-12 col-md-3 mb-4" data-aos="fade-up">
             <div
@@ -171,7 +171,7 @@ const Gallery = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <p className="text-dark fs-5 text-center " data-aos="fade-up">
         <strong>
           I utilized REACT, Typscript and Bootstrap along with Vanilla HTML and
