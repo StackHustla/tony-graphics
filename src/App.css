@@ -55,6 +55,10 @@
   }
 }
 
+.navbar-brand{
+  color: #ED254E !important;
+}
+
 /* ABOUT ME */
 
 .circular-mask {

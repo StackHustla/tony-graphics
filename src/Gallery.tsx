@@ -1,13 +1,9 @@
 /* IMAGES */
 import "aos/dist/aos.css";
 import AOS from "aos";
-
 import Backdoor from "./assets/Backdoor.png";
 import BloomBloom from "./assets/BloomBloom.png";
 import FromYourLove from "./assets/FromYourLove.png";
-import WhoYouWanted from "./assets/WhoYouWanted.webp";
-import Blasian from "./assets/Blasians.webp";
-import AllYellow from "./assets/AllYellow_.webp";
 import ABSPanel from "./assets/ABSPanel.png";
 import AppBrand from "./assets/AppBrand.jpg";
 import IMG4 from "./assets/IMG4.jpg";
@@ -35,6 +31,8 @@ import DataIMG4 from "./assets/IMG_INFO-04.webp";
 import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import Cards from "./Cards";
+
 import About from "./About";
 
 type GalleryItem = {
@@ -60,15 +58,15 @@ const Gallery = () => {
   const data: GalleryItem[] = [
     {
       id: 1,
-      imgSrc: IMG18,
+      imgSrc: BloomBloom,
     },
     {
       id: 2,
-      imgSrc: IMG6,
+      imgSrc: FromYourLove,
     },
     {
       id: 3,
-      imgSrc: IMG12,
+      imgSrc: Backdoor,
     },
     {
       id: 4,
@@ -80,7 +78,7 @@ const Gallery = () => {
     },
     {
       id: 6,
-      imgSrc: IMG11,
+      imgSrc: IMG6,
     },
   ];
 
@@ -88,32 +86,20 @@ const Gallery = () => {
     <>
       <div className="container d-flex justify-content-center text-center ">
         <h4 className="">
-          Can you believe this website was made by me? Check out my Front-end
-          Website{" "}
-          <span>
-            <strong>
-              <a
-                className=""
-                target="blank"
-                rel="noopener noreferrer"
-                href="https://stackhustla.github.io/TonyTCreates.github.io/"
-                style={{ color: "red", fontFamily: "inherit" }}
-              >
-                here!
-              </a>{" "}
-            </strong>
-          </span>
+          Can you believe this website was made by me? I'm working on some cool
+          stuff so check out some of the links below to keep up!
         </h4>
       </div>
       <div className="container justfiy-content-center text-center text-danger">
         <p id="process">
-          In the process of adding contact section, links to Dribbble and
-          anything else that I think is cool!
+          In the process of adding links to Dribbble and anything else that I
+          think is cool!
         </p>
       </div>
+      {/* Cards */}
+
       {/* Header img */}
 
-      <h4 className="justify-content-center text-center m-2">Motion Posters</h4>
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-4 mb-4 " data-aos="fade-up">
@@ -142,42 +128,32 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+      <p className="text-dark fs-5 text-center " data-aos="fade-up">
+        <strong>
+          I utilized REACT, Typscript and Bootstrap along with Vanilla HTML and
+          CSS to build this.
+        </strong>
+      </p>
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-3 mb-4" data-aos="fade-up">
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
             <div
-              className="gallery-item"
-              onClick={() => handleImageClick(Blasian)}
+              className="gallery-item "
+              onClick={() => handleImageClick(DataIMG1)}
             >
-              <img className="img-fluid w-100 shadow" src={Blasian} alt="" />
+              <img className="img-fluid w-100 shadow" src={DataIMG1} alt="" />
             </div>
           </div>
-          <div className="col-12 col-md-6 mb-4" data-aos="fade-up">
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
             <div
               className="gallery-item"
-              onClick={() => handleImageClick(WhoYouWanted)}
+              onClick={() => handleImageClick(DataIMG2)}
             >
-              <img
-                className="img-fluid w-100 shadow"
-                src={WhoYouWanted}
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="col-12 col-md-3 mb-4" data-aos="fade-up">
-            <div
-              className="gallery-item"
-              onClick={() => handleImageClick(AllYellow)}
-            >
-              <img className="img-fluid w-100 shadow" src={AllYellow} alt="" />
+              <img className="img-fluid w-100 shadow" src={DataIMG2} alt="" />
             </div>
           </div>
         </div>
       </div>
-      <h4 className="justify-content-center text-center m-2">
-        Logos - Brand Visuals
-      </h4>
-
       <div className="container">
         <div className="row">
           {data.map((item) => (
@@ -200,57 +176,21 @@ const Gallery = () => {
           ))}
         </div>
       </div>
+      <About />
       <div className="container">
-        <div className="col-12 mb-3" data-aos="fade-up">
+        <div className="col-12 mb-3 mt-4" data-aos="fade-up">
+          <div className="gallery-item" onClick={() => handleImageClick(IMG9)}>
+            <img className="img-fluid w-100 shadow" src={IMG9} alt="" />
+          </div>
+        </div>
+
+        <div className="col-12 mb-3">
           <div
             className="gallery-item"
-            onClick={() => handleImageClick(AppBrand)}
+            data-aos="fade-up"
+            onClick={() => handleImageClick(ABSPanel)}
           >
-            <img className="img-fluid w-100 shadow" src={AppBrand} alt="" />
-          </div>
-        </div>
-      </div>
-      <h4 className="justify-content-center text-center m-2">
-        <div className="container">
-          <div className="col-12 mb-3">
-            <div
-              className="gallery-item"
-              data-aos="fade-up"
-              onClick={() => handleImageClick(IMG15)}
-            >
-              <img className="img-fluid w-100 shadow" src={IMG15} alt="" />
-            </div>
-          </div>
-          <div className="col-12 col-md-12 mb-3" data-aos="fade-up">
-            <div
-              className="gallery-item"
-              onClick={() => handleImageClick(IMG8)}
-            >
-              <img className="img-fluid w-100 shadow" src={IMG8} alt="" />
-            </div>
-          </div>
-        </div>
-        
-        Infographics - MISC
-      </h4>
-
-      <div className="container">
-        <div className="row">
-          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
-            <div
-              className="gallery-item "
-              onClick={() => handleImageClick(DataIMG1)}
-            >
-              <img className="img-fluid w-100 shadow" src={DataIMG1} alt="" />
-            </div>
-          </div>
-          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
-            <div
-              className="gallery-item"
-              onClick={() => handleImageClick(DataIMG2)}
-            >
-              <img className="img-fluid w-100 shadow" src={DataIMG2} alt="" />
-            </div>
+            <img className="img-fluid w-100 shadow" src={ABSPanel} alt="" />
           </div>
         </div>
       </div>
@@ -274,64 +214,37 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-<section>
-
-      <About />
-</section>
-      <h4 className="justify-content-center text-center m-2">Abstract Art</h4>
       <div className="container">
-        <div className="col-12 mb-3" data-aos="fade-up">
-          <div className="gallery-item" onClick={() => handleImageClick(IMG9)}>
-            <img className="img-fluid w-100 shadow" src={IMG9} alt="" />
+        <div className="row">
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item "
+              onClick={() => handleImageClick(IMG7)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG7} alt="" />
+            </div>
+          </div>
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item"
+              onClick={() => handleImageClick(IMG8)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG8} alt="" />
+            </div>
           </div>
         </div>
-
+      </div>
+      <div className="container">
         <div className="col-12 mb-3">
           <div
             className="gallery-item"
             data-aos="fade-up"
-            onClick={() => handleImageClick(ABSPanel)}
+            onClick={() => handleImageClick(IMG15)}
           >
-            <img className="img-fluid w-100 shadow" src={ABSPanel} alt="" />
+            <img className="img-fluid w-100 shadow" src={IMG15} alt="" />
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="row">
-          <div className="col-4 mb-3" data-aos="fade-up">
-            <div
-              className="gallery-item "
-              onClick={() => handleImageClick(Backdoor)}
-            >
-              <img className="img-fluid w-100 shadow" src={Backdoor} alt="" />
-            </div>
-          </div>
-          <div className="col-4 mb-3" data-aos="fade-up">
-            <div
-              className="gallery-item "
-              onClick={() => handleImageClick(BloomBloom)}
-            >
-              <img className="img-fluid w-100 shadow" src={BloomBloom} alt="" />
-            </div>
-          </div>
-          <div className="col-4 mb-3" data-aos="fade-up">
-            <div
-              className="gallery-item"
-              onClick={() => handleImageClick(FromYourLove)}
-            >
-              <img
-                className="img-fluid w-100 shadow"
-                src={FromYourLove}
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <h4 className="justify-content-center text-center m-2">
-        Social Media Art
-      </h4>
-
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-4 mb-3" data-aos="fade-up">
@@ -353,29 +266,13 @@ const Gallery = () => {
           <div className="col-12 col-md-4 mb-3" data-aos="fade-up">
             <div
               className="gallery-item"
-              onClick={() => handleImageClick(IMG10)}
+              onClick={() => handleImageClick(IMG18)}
             >
-              <img className="img-fluid w-100 shadow" src={IMG10} alt="" />
+              <img className="img-fluid w-100 shadow" src={IMG18} alt="" />
             </div>
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="row">
-          <div className="col-12 col-md-12 mb-3" data-aos="fade-up">
-            <div
-              className="gallery-item "
-              onClick={() => handleImageClick(IMG7)}
-            >
-              <img className="img-fluid w-100 shadow" src={IMG7} alt="" />
-            </div>
-          </div>
-          
-        </div>
-      </div>
-      <h4 className="justify-content-center text-center m-2">
-        Print Projects - More to come
-      </h4>
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
@@ -397,8 +294,46 @@ const Gallery = () => {
         </div>
       </div>
 
-      {/* applab */}
+      <div className="container">
+        <div className="row">
+          <div className="col-4 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item "
+              onClick={() => handleImageClick(IMG11)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG11} alt="" />
+            </div>
+          </div>
+          <div className="col-4 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item "
+              onClick={() => handleImageClick(IMG10)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG10} alt="" />
+            </div>
+          </div>
+          <div className="col-4 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item"
+              onClick={() => handleImageClick(IMG12)}
+            >
+              <img className="img-fluid w-100 shadow" src={IMG12} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
 
+      {/* applab */}
+      <div className="container">
+        <div className="col-12 mb-3" data-aos="fade-up">
+          <div
+            className="gallery-item"
+            onClick={() => handleImageClick(AppBrand)}
+          >
+            <img className="img-fluid w-100 shadow" src={AppBrand} alt="" />
+          </div>
+        </div>
+      </div>
       <div className="container d-flex m-2 justify-content-center text-center">
         <h5>
           I've been creating graphics for over 10 years. Thousands of projects.
