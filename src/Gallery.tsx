@@ -172,7 +172,7 @@ const Gallery = () => {
             data-aos="fade-up"
             onClick={() => handleImageClick(ABSPanel)}
           >
-            <img className="img-fluid w-100 shadow" src={ABSPanel} alt="" /> //replace with modern piece
+            <img className="img-fluid w-100 shadow" src={ABSPanel} alt="" /> 
           </div>
         </div>
         <div className="container">
