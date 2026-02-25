@@ -1,36 +1,37 @@
+
 .footer-background {
-    width: 100vw;
-    /* Full width of the viewport */
-    background-color: #676767;
-    /* Your desired background color */
+    width: 55vw;
     padding: 50px 0;
-    /* Space around the content */
+    background-color: var(--accent);
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 /* Centered content */
 .footer-container {
     max-width: 1200px;
-    /* Adjust this value as needed for your layout */
     margin: 0 auto;
-    /* Center content */
-    background-color: #140D4F;
-    /* Inner content background if needed */
+    background-color: var(--accent);
     padding: 20px;
-    /* Adjust padding */
     border-radius: 10px;
-    /* Optional, for visual design */
 }
 
 .footer-text{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .footer-text:hover{
-    color: #ED254E !important;
+    color: var(--accent) !important;
 }
 
 .list-unstyled .social-icon {
-    color: white !important;
+    color: var(--text) !important;
 }
 .list-unstyled .social-icon:hover {
-    color: #ED254E !important;
+    color: var(--accent) !important;
+}
+
+@media (max-width: 576px) {
+    .footer-text {
+        font-size: 1.1rem;
+    }
 }

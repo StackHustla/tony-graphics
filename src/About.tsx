@@ -18,26 +18,22 @@ const About = () => {
                 Huntsville, AL.
               </h2>
               <h5 className="p-2 justify-content-center text-center">
-                I create brand identities, user interfaces, landing pages,
-                websites, social media stories, and everything in-between to
-                make brands successful. I also have fun doing so!
+                I create Brand Identities, User Interfaces, Landing Pages,
+                Websites, Apparel, Marketing Strategies, and everything in-between to
+                make brands successful. I love creating and learning every single day! Lets go!
+                
               </h5>
               <p className="p-1 justify-content-center text-center">
                 I grew up loving to create and customize. Everything to me
                 needed to be personalized by me for me. Every video game
                 character, item, or whatever needed to represent and express who
                 I was as an individual. But what fascinated me the most was
-                digital art and design. While my mom was attending college, she
-                had a few classmates introduce me to graphic design. From there,
+                digital art and design. My motto is "what about the end-user"
+                While my mom was attending college, she had a few classmates
+                introduce me to graphic design. From there,
                 I was intrigued in designing everything from ads, shirts and
                 anything else that I thought was cool. Back then I was just
-                learning but that spark ignited a fire in me that continues to
-                burn today!
-                <br />
-                <br />
-                Confidence is key and honestly, I feel as though I am VERY good
-                at what I do. You should hit me up if you've gotten this far. We
-                can make something great!
+                the beginning that sparked the flames that ignighted my passion for the arts!
               </p>
             </div>
             <div className="col-lg-4 order-lg-1 about-image">

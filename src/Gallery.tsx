@@ -128,7 +128,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <p className="text-dark fs-5 text-center " data-aos="fade-up">
+      <p className="fs-5 text-center" style={{ color: 'var(--text)' }} data-aos="fade-up">
         <strong>
           I utilized REACT, Typscript and Bootstrap along with Vanilla HTML and
           CSS to build this.
@@ -337,12 +337,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <div className="container d-flex m-2 justify-content-center text-center">
-        <h5>
-          I've been creating graphics for over 10 years. Thousands of projects.
-          Kind of hard to choose a few. Will update weekly!
-        </h5>
-      </div>
+     
       {selectedImage && (
         <div
           className="modal fade show d-block"

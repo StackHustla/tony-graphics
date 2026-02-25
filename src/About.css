@@ -2,7 +2,7 @@
 .about-background {
     width: 100%; /* use percent to avoid 100vw scrollbar overflow */
     box-sizing: border-box;
-    background-color: #140D4F; /* Your desired background color */
+  background-color: var(--bg); /* theme-controlled background */
     padding: 50px 0; /* Space around the content */
   }
   
@@ -10,16 +10,16 @@
   .about-container {
     max-width: 1200px; /* Adjust this value as needed for your layout */
     margin: 0 auto; /* Center content */
-    background-color: #140D4F; /* Inner content background if needed */
+    background-color: var(--accent); /* inner panel uses accent color */
     padding: 20px; /* Adjust padding */
     border-radius: 10px; /* Optional, for visual design */
   }
 
   h2,h5,p{
-    color: white;
+    color: var(--text);
   }
-  
+
   .continue{
-    color: #ED254E !important;
+    color: var(--accent) !important;
   }
   

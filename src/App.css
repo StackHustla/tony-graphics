@@ -1,3 +1,19 @@
+.navbar .btn-outline-secondary {
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+  background: transparent;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  font-size: larger;
+}
+.navbar .btn-outline-secondary:hover, .navbar .btn-outline-secondary:active {
+  background: var(--accent) !important;
+  color: var(--bg) !important;
+  color: white !important;
+}
+.navbar {
+  background: var(--bg) !important;
+  box-shadow: 0 6px 24px 0 rgba(0,0,0,0.25);
+}
 #root {
   max-width: 1780px;
 }
@@ -56,7 +72,11 @@
 }
 
 .navbar-brand{
-  color: #ED254E !important;
+  color: var(--accent) !important;
+}
+
+.navbar {
+  background: var(--bg) !important;
 }
 
 /* ABOUT ME */

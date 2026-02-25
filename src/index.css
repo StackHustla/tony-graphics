@@ -5,9 +5,57 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --clr-primary: #ffffff;
-  --clr-secondary: #0a0908;
-  --clr-third: #22333B;
+  --bg: #ffffff;
+  --text: #0a0908;
+  --accent: #ED254E;
+}
+
+/* Theme classes — each defines three colors (background, text, accent) */
+.theme-OMEGA {
+  /* EDIT THESE THREE values for the light theme: background, text, accent */
+  --bg: #323031;
+  --text: #ffffff;
+  --accent: #D30000;
+}
+
+
+.theme-2077 {
+  /* EDIT THESE THREE values for the 2077 theme: background, text, accent */
+  --bg: #0f1720;
+  --text: #ffffff;
+  --accent: #ffb300;
+}
+
+.theme-WAVE {
+  /* EDIT THESE THREE values for the neutral theme: background, text, accent */
+  --bg: #084887;
+  --text: #ffffff;
+  --accent: #009DDC;
+}
+
+/* Scrollbar: keep a fixed white thumb for navigation visibility */
+:root {
+  --scroll-thumb: #ffffff;
+}
+
+/* Webkit browsers */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb);
+  border-radius: 6px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) transparent;
 }
 
 
@@ -22,13 +70,12 @@ a:hover {
 }
 
 .navbar-nav .nav-link {
-  color: rgb(0, 0, 0) !important;
-  transition: color 0.3s ease;
-  transition: 0.3s ease-in-out;
+  color: var(--text) !important;
+  transition: color 0.3s ease-in-out;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ED254E !important;
+  color: var(--accent) !important;
 }
 
 body {
@@ -41,8 +88,10 @@ body {
   min-height: 100vh;
   padding: 0 1rem;
   font-family: Poppins;
+  background: var(--bg);
+  color: var(--text);
 }
 
 #process{
-  color: black;
+  color: var(--text);
 }
