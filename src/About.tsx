@@ -1,4 +1,5 @@
 import TempIMG from "./assets/TempIMG.webp";
+import IMGPROFILE from "./assets/IMGPROFILE.jpg";
 import "./About.css";
 import Cards from "./Cards";
 const About = () => {
@@ -13,7 +14,7 @@ const About = () => {
           <div className="row p-5 about-container align-items-center">
             <div className="col-lg-8 mb-1 order-lg-2">
               <h2 className="p-2 justify-content-center text-center">
-                Hi I'm Tony, a Senior Graphic Designer and Creative in
+                Hello! I'm Tony T. A Senior Graphic Designer, UX Designer and Creative in
                 Huntsville, AL.
               </h2>
               <h5 className="p-2 justify-content-center text-center">
@@ -43,8 +44,8 @@ const About = () => {
               <div data-aos="fade-up">
                 <img
                   className="img-fluid w-100 shadow circular-mask"
-                  src={TempIMG}
-                  alt="Tony's Profile"
+                  src={IMGPROFILE}
+                  alt="Tony's Profile Picture"
                 />
               </div>
             </div>

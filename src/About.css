@@ -1,6 +1,7 @@
 /* Full-width background */
 .about-background {
-    width: 100vw; /* Full width of the viewport */
+    width: 100%; /* use percent to avoid 100vw scrollbar overflow */
+    box-sizing: border-box;
     background-color: #140D4F; /* Your desired background color */
     padding: 50px 0; /* Space around the content */
   }

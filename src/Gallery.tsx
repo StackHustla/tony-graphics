@@ -92,8 +92,8 @@ const Gallery = () => {
       </div>
       <div className="container justfiy-content-center text-center text-danger">
         <p id="process">
-          In the process of adding links to Dribbble and anything else that I
-          think is cool!
+          My Dribbble is updated more frequently than my Website. If you would like to
+          see more of my work, check it out!
         </p>
       </div>
       {/* Cards */}
@@ -134,26 +134,7 @@ const Gallery = () => {
           CSS to build this.
         </strong>
       </p>
-      <div className="container">
-        <div className="row">
-          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
-            <div
-              className="gallery-item "
-              onClick={() => handleImageClick(DataIMG1)}
-            >
-              <img className="img-fluid w-100 shadow" src={DataIMG1} alt="" />
-            </div>
-          </div>
-          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
-            <div
-              className="gallery-item"
-              onClick={() => handleImageClick(DataIMG2)}
-            >
-              <img className="img-fluid w-100 shadow" src={DataIMG2} alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
+      
       <div className="container">
         <div className="row">
           {data.map((item) => (
@@ -177,6 +158,7 @@ const Gallery = () => {
         </div>
       </div>
       <About />
+      
       <div className="container">
         <div className="col-12 mb-3 mt-4" data-aos="fade-up">
           <div className="gallery-item" onClick={() => handleImageClick(IMG9)}>
@@ -190,9 +172,40 @@ const Gallery = () => {
             data-aos="fade-up"
             onClick={() => handleImageClick(ABSPanel)}
           >
-            <img className="img-fluid w-100 shadow" src={ABSPanel} alt="" />
+            <img className="img-fluid w-100 shadow" src={ABSPanel} alt="" /> //replace with modern piece
           </div>
         </div>
+        <div className="container">
+        <div className="col-12 mb-3">
+          <div
+            className="gallery-item"
+            data-aos="fade-up"
+            onClick={() => handleImageClick(IMG15)}
+          >
+            <img className="img-fluid w-100 shadow" src={IMG15} alt="" />
+          </div>
+        </div>
+      </div>
+        <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item "
+              onClick={() => handleImageClick(DataIMG1)}
+            >
+              <img className="img-fluid w-100 shadow" src={DataIMG1} alt="" />
+            </div>
+          </div>
+          <div className="col-12 col-md-6 mb-3" data-aos="fade-up">
+            <div
+              className="gallery-item"
+              onClick={() => handleImageClick(DataIMG2)}
+            >
+              <img className="img-fluid w-100 shadow" src={DataIMG2} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
       <div className="container">
         <div className="row">
@@ -234,17 +247,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="col-12 mb-3">
-          <div
-            className="gallery-item"
-            data-aos="fade-up"
-            onClick={() => handleImageClick(IMG15)}
-          >
-            <img className="img-fluid w-100 shadow" src={IMG15} alt="" />
-          </div>
-        </div>
-      </div>
+      
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-4 mb-3" data-aos="fade-up">
