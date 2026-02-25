@@ -44,7 +44,7 @@ function App() {
           {/* changed container-fluid to container */}
           <div className="d-flex align-items-center">
             <a className="navbar-brand" href="#">
-              <h3 className="fs-2 fw-bolder ">Created By Tony T</h3>
+              <strong>Created By Tony T</strong>
             </a>
             <button
               type="button"
@@ -64,7 +64,11 @@ function App() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon-custom">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
           </button>
           <div
             className="collapse navbar-collapse justify-content-center"

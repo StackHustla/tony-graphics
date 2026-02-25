@@ -1,10 +1,14 @@
+/* Make the hamburger menu lines white */
+
 .navbar .btn-outline-secondary {
   border-color: var(--accent) !important;
   color: var(--accent) !important;
   background: transparent;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
-  font-size: larger;
-}
+  font-size: medium;
+  font-weight: bolder;
+  }
+  
 .navbar .btn-outline-secondary:hover, .navbar .btn-outline-secondary:active {
   background: var(--accent) !important;
   color: var(--bg) !important;
@@ -98,6 +102,22 @@
   .about-image {
     margin-bottom: 20px;
   }
+}
 
-
+.navbar-toggler-icon-custom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1.5em;
+  height: 1.5em;
+}
+.navbar-toggler-icon-custom span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: var(--accent);
+  border-radius: 2px;
+  margin: 4px 0;
+  transition: background 0.2s;
 }
