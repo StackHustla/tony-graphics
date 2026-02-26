@@ -4,7 +4,7 @@ import AOS from "aos";
 import Backdoor from "./assets/Backdoor.png";
 import BloomBloom from "./assets/BloomBloom.png";
 import FromYourLove from "./assets/FromYourLove.png";
-import ABSPanel from "./assets/ABSPanel.png";
+
 import AppBrand from "./assets/AppBrand.jpg";
 import IMG4 from "./assets/IMG4.jpg";
 import IMG5 from "./assets/IMG5.jpg";
@@ -28,6 +28,8 @@ import DataIMG1 from "./assets/IMG_INFO-01.webp";
 import DataIMG2 from "./assets/IMG_INFO-02.webp";
 import DataIMG3 from "./assets/IMG_INFO-03.webp";
 import DataIMG4 from "./assets/IMG_INFO-04.webp";
+import moodboard1 from "./assets/moodboard-1.webp";
+import bramble from "./assets/bramble.webp";
 import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -130,11 +132,20 @@ const Gallery = () => {
       </div>
       <p className="fs-5 text-center" style={{ color: 'var(--text)' }} data-aos="fade-up">
         <strong>
-          I utilized REACT, Typscript and Bootstrap along with Vanilla HTML and
-          CSS to build this.
+          I utilized REACT, Typscript and Bootstrap along 
+          <br />
+          with Vanilla HTML and CSS to build this.
         </strong>
       </p>
-      
+      <div className="col-10 mb-3 mx-auto">
+          <div
+            className="gallery-item"
+            data-aos="fade-up"
+            onClick={() => handleImageClick(moodboard1)}
+          >
+            <img className="img-fluid w-100 shadow" src={moodboard1} alt="" /> 
+          </div>
+        </div>
       <div className="container">
         <div className="row">
           {data.map((item) => (
@@ -170,9 +181,9 @@ const Gallery = () => {
           <div
             className="gallery-item"
             data-aos="fade-up"
-            onClick={() => handleImageClick(ABSPanel)}
+            onClick={() => handleImageClick(bramble)}
           >
-            <img className="img-fluid w-100 shadow" src={ABSPanel} alt="" /> 
+            <img className="img-fluid w-100 shadow" src={bramble} alt="" /> 
           </div>
         </div>
         <div className="container">

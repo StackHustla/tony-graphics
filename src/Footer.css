@@ -20,18 +20,23 @@
     font-size: 1.5rem;
 }
 .footer-text:hover{
-    color: var(--accent) !important;
+    color: var(--bg) !important;
 }
 
 .list-unstyled .social-icon {
     color: var(--text) !important;
 }
 .list-unstyled .social-icon:hover {
-    color: var(--accent) !important;
+    color: var(--bg) !important;
 }
 
 @media (max-width: 576px) {
     .footer-text {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 576px) {
+    .footer-background {
+        width: 80vw;
     }
 }
