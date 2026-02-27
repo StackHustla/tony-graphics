@@ -88,8 +88,8 @@ const Gallery = () => {
     <>
       <div className="container d-flex justify-content-center text-center ">
         <h4 className="">
-          Can you believe this website was made by me? I'm working on some cool
-          stuff so check out some of the links below to keep up!
+          Can you believe this website was made by me? <br />
+          <strong className=""> Everything you see here was designed and built by me!</strong>
         </h4>
       </div>
       <div className="container justfiy-content-center text-center text-danger">
